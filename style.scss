@@ -41,3 +41,40 @@ body{
             margin-right: 5px;
         }
     }
+        .ima2 {
+            width: 375px;
+            height: 66px;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            p{
+                font-size: 20px;
+                font-weight: bold;
+            }
+            span{
+                margin-left: -5px;
+                color: #00730C;
+                position: relative;
+            }
+            img{
+                position: absolute;
+               top: 83px;
+               right: 409px;
+            }
+            .im2{
+                width: 60px;
+                height: 30px;
+                background-color: aliceblue;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .imm1{
+                    width: 20px;
+                    height: 20px;
+                    background-color: yellow;
+                    background-image: url("img/Call\ Button.png");
+                }
+            }
+        }

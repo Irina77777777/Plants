@@ -41,4 +41,42 @@ body {
   color: white;
   font-size: 12px;
   margin-right: 5px;
+}
+
+.ima2 {
+  width: 375px;
+  height: 66px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.ima2 p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.ima2 span {
+  margin-left: -5px;
+  color: #00730C;
+  position: relative;
+}
+.ima2 img {
+  position: absolute;
+  top: 83px;
+  right: 409px;
+}
+.ima2 .im2 {
+  width: 60px;
+  height: 30px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ima2 .im2 .imm1 {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  background-image: url("img/Call Button.png");
 }/*# sourceMappingURL=style.css.map */
