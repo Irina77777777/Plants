@@ -20,24 +20,24 @@ body {
   height: 20px;
   background-color: aquamarine;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
-.header .ima3 li {
-  text-decoration: none;
+.header .ima3 div {
+  background-color: yellowgreen;
+}
+.header .ima3 div img {
   display: block;
 }
-.header .ima3 li img {
-  display: block;
-}
-.header .lang {
+
+.lang {
   width: 50px;
   height: 20px;
   display: flex;
   justify-content: end;
   align-items: center;
 }
-.header .lang p {
+.lang p {
   color: white;
   font-size: 12px;
   margin-right: 5px;

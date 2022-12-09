@@ -18,15 +18,15 @@ body{
         height: 20px;
          background-color: aquamarine;
          display: flex;
-         justify-content: center;
-         align-items: center;
-         li{
-            text-decoration: none;
-            display: block;
-            img{
-                display: block;
-            }
-         }
+         justify-content:space-around;
+          align-items: center;
+             div{
+                background-color: yellowgreen;
+                         img{
+                           display: block;
+                             }
+         } 
+        }
     }
     .lang{
         width: 50px;
@@ -41,4 +41,3 @@ body{
             margin-right: 5px;
         }
     }
-}
