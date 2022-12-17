@@ -1,7 +1,10 @@
 
+// @import "./variables";
+
 *{
     box-sizing: border-box;
 }
+// mobile version
 body{
     font-family: 'Nunito', sans-serif;       
 }
@@ -44,11 +47,11 @@ body{
         .ima2 {
             width: 375px;
             height: 66px;
-            background-color: aquamarine;
+           // background-color: aquamarine;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px;
+            padding: 10px;
             p{
                 font-size: 20px;
                 font-weight: bold;
@@ -61,20 +64,34 @@ body{
             img{
                 position: absolute;
                top: 83px;
-               right: 409px;
+               right: 670px;
             }
             .im2{
                 width: 60px;
                 height: 30px;
-                background-color: aliceblue;
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
-                .imm1{
+              
+                .imm1, .imm2{
                     width: 20px;
                     height: 20px;
-                    background-color: yellow;
-                    background-image: url("img/Call\ Button.png");
+                      background-image: url("img/Call\ Button.png");
+                     background-repeat: no-repeat;
+                     background-position: center;
+                }
+                .imm2{
+                     background-image: url("img/Menu_.png");
+                
                 }
             }
         }
+
+
+
+        // laptop version
+        @media(min-width:1024px) {}
+
+
+        //desktop version
+        @media(min-width:1600px) {}
